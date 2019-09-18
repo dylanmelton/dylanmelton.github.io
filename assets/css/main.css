@@ -899,6 +899,7 @@ input, select, textarea {
 		cursor: default;
 		list-style: none;
 		padding-left: 0;
+		margin-top: 10px;
 	}
 
 		ul.icons li {
@@ -1127,7 +1128,7 @@ input, select, textarea {
 			top: 0;
 			left: 0;
 			width: 100%;
-			height: 100%;
+			height: 115%;
 		}
 
 		#bg:before {
@@ -1161,7 +1162,7 @@ input, select, textarea {
 			background-image: url("../../images/bgtemp.jpg");
 			background-position: center;
 			background-size: cover;
-			background-repeat: no-repeat;
+			background-repeat: no-repeat; 
 			z-index: 1;
 			background-color: rgba(0, 0, 0, 0.5);
 		}
@@ -1332,7 +1333,7 @@ input, select, textarea {
 			#header .content p {
 				text-transform: uppercase;
 				letter-spacing: 0.2rem;
-				font-size: 0.8rem;
+				font-size: 1rem;
 				line-height: 2;
 			}
 
@@ -1659,4 +1660,17 @@ input, select, textarea {
 
 		body.is-preload #footer {
 			opacity: 0;
+		}
+		.next-button {
+			display: flex;
+			justify-content: center;
+			font-size: 25px;
+		}
+		.next-button:hover {
+			color: burlywood;
+			font-size: 27px;
+			margin-bottom: 30px;
+		}
+		.base-camp-link:hover {
+			font-size: 17px;
 		}
