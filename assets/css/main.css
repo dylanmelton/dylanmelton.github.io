@@ -1151,7 +1151,7 @@ input, select, textarea {
 		}
 
 		#bg:after {
-			-moz-transform: scale(1.125);
+			-moz-transform: scale(1125);
 			-webkit-transform: scale(1.125);
 			-ms-transform: scale(1.125);
 			transform: scale(1.125);
