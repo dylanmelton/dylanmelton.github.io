@@ -1674,3 +1674,6 @@ input, select, textarea {
 		.base-camp-link:hover {
 			font-size: 17px;
 		}
+		.projects-font {
+			font-size: 20px;
+		}
