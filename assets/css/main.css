@@ -1667,7 +1667,7 @@ input, select, textarea {
 			font-size: 25px;
 		}
 		.next-button:hover {
-			color: burlywood;
+			color: skyblue;
 			font-size: 27px;
 			margin-bottom: 30px;
 		}
@@ -1676,4 +1676,7 @@ input, select, textarea {
 		}
 		.projects-font {
 			font-size: 20px;
+		}
+		.projects-link:hover {
+			color: skyblue;
 		}
